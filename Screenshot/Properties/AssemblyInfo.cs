@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("GI.Screenshot")]
-[assembly: AssemblyDescription("Simple screenshot capture library.")]
+[assembly: AssemblyDescription("Simple screenshot capture library for the .NET Framework.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("George Ilyes")]
 [assembly: AssemblyProduct("GI.Screenshot")]
@@ -35,5 +35,5 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyFileVersion("1.0.1.0")]

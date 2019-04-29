@@ -64,5 +64,8 @@
   <ItemGroup>
     <None Include="Screenshot.nuspec" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Cross.cur" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

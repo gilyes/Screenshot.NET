@@ -1,7 +1,6 @@
 ﻿using System.Drawing;
 using System.Drawing.Imaging;
 using System.Windows;
-using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using Size = System.Drawing.Size;
 
@@ -42,8 +41,7 @@ namespace GI.Screenshot
                              Left = left,
                              Top = top,
                              Width = right - left,
-                             Height = bottom - top,
-                             Cursor = Cursors.Cross
+                             Height = bottom - top
                          };
 
             window.ShowDialog();
