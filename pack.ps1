@@ -1,0 +1,1 @@
+nuget pack Screenshot\Screenshot.csproj -Build -Properties Configuration=Release -OutputDirectory .\Releases
