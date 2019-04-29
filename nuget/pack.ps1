@@ -1,0 +1,1 @@
+nuget pack $PSScriptRoot\..\Screenshot\Screenshot.csproj -Build -Properties Configuration=Release -OutputDirectory $PSScriptRoot\..\Releases
