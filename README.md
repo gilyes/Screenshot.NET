@@ -2,6 +2,12 @@
 
 Simple screenshot library for .NET Framework. Allows selection and capture of screen region, similar to Snipping Tool.
 
+## Installation
+
+```
+Install-Package GI.Screenshot
+```
+
 ## Basic Usage
 
 ```c#
