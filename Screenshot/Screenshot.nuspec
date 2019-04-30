@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/gilyes/Screenshot.NET</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Selection window set to TopMost and not shown in taskbar.</releaseNotes>
+    <releaseNotes>- Selection window explicitly activated on load.</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>screenshot, screen-capture</tags>
   </metadata>

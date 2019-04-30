@@ -12,6 +12,8 @@ namespace GI.Screenshot
         public RegionSelectionWindow()
         {
             InitializeComponent();
+
+            Loaded += (s, e) => Activate();
         }
 
         public Rect? SelectedRegion { get; private set; }
