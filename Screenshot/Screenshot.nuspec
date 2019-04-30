@@ -11,8 +11,8 @@
     <projectUrl>https://github.com/gilyes/Screenshot.NET</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Added custom cursor for better visibility.</releaseNotes>
+    <releaseNotes>Selection window set to TopMost and not shown in taskbar.</releaseNotes>
     <copyright>Copyright 2019</copyright>
-    <tags>screenshot</tags>
+    <tags>screenshot, screen-capture</tags>
   </metadata>
 </package>
