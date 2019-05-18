@@ -31,9 +31,6 @@ namespace GI.Screenshot
 
             _selectionStartPos = e.GetPosition(this);
 
-            Canvas.SetLeft(SelectionImage, -_selectionStartPos.Value.X);
-            Canvas.SetTop(SelectionImage, -_selectionStartPos.Value.Y);
-
             Mouse.Capture(this);
         }
 
@@ -66,8 +63,14 @@ namespace GI.Screenshot
 
             var position = e.GetPosition(this);
 
-            Canvas.SetLeft(SelectionBorder, Math.Min(_selectionStartPos.Value.X, position.X));
-            Canvas.SetTop(SelectionBorder, Math.Min(_selectionStartPos.Value.Y, position.Y));
+            var left = Math.Min(_selectionStartPos.Value.X, position.X);
+            var top = Math.Min(_selectionStartPos.Value.Y, position.Y);
+
+            Canvas.SetLeft(SelectionImage, -left);
+            Canvas.SetTop(SelectionImage, -top);
+
+            Canvas.SetLeft(SelectionBorder, left);
+            Canvas.SetTop(SelectionBorder, top);
             SelectionBorder.Width = Math.Abs(position.X - _selectionStartPos.Value.X);
             SelectionBorder.Height = Math.Abs(position.Y - _selectionStartPos.Value.Y);
         }
