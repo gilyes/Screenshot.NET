@@ -1,12 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFrameworks>net462;net6.0-windows;net8.0-windows</TargetFrameworks>
     <RootNamespace>GI.Screenshot</RootNamespace>
     <AssemblyName>GI.Screenshot</AssemblyName>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <LangVersion>latest</LangVersion>
 
     <!-- NuGet Package Metadata -->
     <PackageId>GI.Screenshot</PackageId>
@@ -15,12 +16,12 @@
     <Authors>George Ilyes</Authors>
     <Company>George Ilyes</Company>
     <Product>GI.Screenshot</Product>
-    <Description>Simple screenshot capture library for the .NET Framework.</Description>
+    <Description>Simple screenshot capture library for .NET/.NET Framework.</Description>
     <Copyright>Copyright (c) 2019</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/gilyes/Screenshot.NET</PackageProjectUrl>
     <PackageTags>screenshot, screen-capture</PackageTags>
-    <PackageReleaseNotes>Fixed preview when dragging mouse up/left.</PackageReleaseNotes>
+    <PackageReleaseNotes>Multitargeting .NET Framework and .NET</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
