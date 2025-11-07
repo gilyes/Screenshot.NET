@@ -3,3 +3,5 @@ bin/
 obj/
 *.DotSettings.user
 Releases/
+CLAUDE.md
+.claude/
